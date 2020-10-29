@@ -7,6 +7,9 @@ FLUSH PRIVILEGES;
 数据库连接命令：
 mysql -h vaiwan.com -u root -p -P 1234 //端口号地址
 
+钉钉内网穿透开放平台：
+https://ding-doc.dingtalk.com/doc#/kn6zg7/hb7000
+
 windows平台使用在cmd窗口执行：
  ding -config=ding.cfg -subdomain=xxxxx  port
  ding -config=ding.cfg -subdomain=sonar  8000
