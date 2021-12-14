@@ -15,3 +15,9 @@ windows平台使用在cmd窗口执行：
  ding -config=ding.cfg -subdomain=xxxxx  port
 
  ding -config=ding.cfg -subdomain=sonar  8000
+ 
+ Linux平台使用在终端执行：
+ 
+ 当前：nohup ./ding -config=ding.cfg -subdomain=xxxxx  port  &
+
+ 绝对路径：nohup /root/linux/ding -config=ding.cfg -subdomain=sonar  8000 &
