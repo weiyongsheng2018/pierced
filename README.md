@@ -21,3 +21,9 @@ windows平台使用在cmd窗口执行：
  当前：nohup ./ding -config=ding.cfg -subdomain=xxxxx  port  &
 
  绝对路径：nohup /root/linux/ding -config=ding.cfg -subdomain=sonar  8000 &
+ 
+ TCP穿透：
+ ./ding -config=./ding.cfg -proto=tcp start ssh
+ 
+ 
+ 参考文章：https://blog.csdn.net/lxyoucan/article/details/112548798
